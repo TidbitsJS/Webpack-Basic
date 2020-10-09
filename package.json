@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack src/js/app.js --output dist/bundle.js --mode development"
+    "build": "webpack src/js/app.js --output dist/bundle.js --mode development",
+    "build:prod": "webpack src/js/app.js --output dist/bundle.js -p"
   },
   "author": "",
   "license": "ISC",
