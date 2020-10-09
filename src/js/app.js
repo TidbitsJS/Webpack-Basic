@@ -1,3 +1,4 @@
+import { secretButton, secretParagraph } from "./dom";
 var showSecret = false;
 
 secretButton.addEventListener("click", toggleSecretState);
