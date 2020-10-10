@@ -1,4 +1,8 @@
+import "../css/main.css";
+import "../css/elements.css";
+
 import { secretButton, secretParagraph } from "./dom";
+
 var showSecret = false;
 
 secretButton.addEventListener("click", toggleSecretState);
