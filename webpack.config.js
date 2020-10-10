@@ -15,4 +15,28 @@ module.exports = {
       },
     ],
   },
+  optimization: {
+    minimize: false,
+  },
 };
+
+/*
+
+var webpack = require("webpack");
+Throws an Error
+Error: webpack.optimize.UglifyJsPlugin has been removed, please use config.optimization.minimize instead.
+
+plugins: [
+  new webpack.optimize.UglifyJsPlugin({
+    // Nothing for now ...
+  }),
+]
+
+
+Solution 01 : Use webpack optimization
+
+optimization: {
+        minimize: false,
+ }
+
+*/
